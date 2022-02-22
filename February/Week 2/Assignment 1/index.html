@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-image: url(https://images.unsplash.com/photo-1645333504715-f440a7b78e93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20PX;
+            color: black;
+            background-color: bisque;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 30PX;
+            color: bisque;
+
+        }
+
+        h4 {
+            margin-top: 30px;
+            color: bisque;
+            margin-bottom: 10px;
+
+        }
+
+        input {
+            border: 1px;
+            padding: 10px;
+            width: 350px;
+            border-radius: 10px;
+        }
+
+        .Login {
+            margin-right: 40px;
+            text-align: center;
+
+        }
+
+        button {
+            margin-top: 40px;
+            background-color: wheat;
+            padding: 10px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        select {
+            border: 1px;
+            padding: 10px;
+            width: 350px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Here Is your Survey Page </h1>
+
+    <div class="Login">
+        <h3>Enter Your Credentials</h3>
+
+        <form>
+            <h4>Enter Name</h4>
+            <input type="text" placeholder="Name">
+            <h4>Enter Email</h4>
+            <input type="email" placeholder="Email">
+            <h4>Enter Mobile No</h4>
+            <input type="number" placeholder="Mobile No">
+            <h4>Enter Date of Birth</h4>
+            <input type="date" placeholder="Date">
+            <h4>Gender</h4>
+            <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <h4>Marital status</h4>
+            <h4 for="single">single</h4>
+             <input type="radio" id="single" name="status" value="single">
+             <h4 for="married">married</h4>
+              <input type="radio" id="married" name="status" value="married">
+
+
+
+            <h4>Yes , I am sure </h4>
+            <input type="checkbox" placeholder="None">
+            <br>
+            <button type="reset">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
