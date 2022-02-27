@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <style>
+        * {
+
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav {
+            height: 70px;
+            background-color: black;
+        }
+
+        a {
+            margin: 10PX;
+            text-decoration: none;
+        }
+
+        label {
+            color: bisque;
+        }
+
+        label~p {
+            color: aqua;
+            margin: 10px;
+            float: right;
+        }
+
+        .nav2 {
+            height: 80px;
+            background-color: black;
+        }
+
+        p {
+            color: aqua;
+            margin: 10px;
+            float: right;
+        }
+
+        p+span {
+            color: brown;
+            margin: 10px;
+            float: right;
+        }
+
+        .nav3 {
+            height: 80px;
+            background-color: black;
+        }
+
+        .child>h4 {
+            color: chartreuse;
+            margin: 10px;
+            float: right;
+        }
+
+        .nav4 {
+            height: 80px;
+            background-color: black;
+        }
+        .nav4 div{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+        <a href="#" style="color: bisque;">Home</a>
+        <a href="#" style="color: bisque;">about_us</a>
+        <a href="#" style="color: bisque;">Contact_us</a>
+
+        <label for="Bikes">Choose a Bike:</label>
+        <select name="Bikes" id="Bikes">
+            <option value="honda">honda</option>
+            <option value="pulser">pulser</option>
+            <option value="duke">duke</option>
+            <option value="bullet">bullet</option>
+        </select>
+        <p>Welcome to My Showroom=gen sib com</p>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="nav2">
+
+        <a href="#" style="color: bisque;">Home</a>
+        <a href="#" style="color: bisque;">about_us</a>
+        <a href="#" style="color: bisque;">Contact_us</a>
+        <label for="Bikes">Choose a Bike:</label>
+        <select name="Bikes" id="Bikes">
+            <option value="honda">honda</option>
+            <option value="pulser">pulser</option>
+            <option value="duke">duke</option>
+            <option value="bullet">bullet</option>
+        </select>
+        <div>
+            <p>Welcome to My Showroom=adj sib com</p>
+            <span>hurry up limited offers</span>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="nav3">
+
+        <a href="#" style="color: bisque;">Home</a>
+        <a href="#" style="color: bisque;">about_us</a>
+        <a href="#" style="color: bisque;">Contact_us</a>
+        <label for="Bikes">Choose a Bike:</label>
+        <select name="Bikes" id="Bikes">
+            <option value="honda">honda</option>
+            <option value="pulser">pulser</option>
+            <option value="duke">duke</option>
+            <option value="bullet">bullet</option>
+        </select>
+        <div class="child">
+            <h4>Welcome to My Showroom=child com<h4>
+                    <h4>hurry up limited offers</h4>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="nav4">
+
+        <a href="#" style="color: bisque;">Home</a>
+        <a href="#" style="color: bisque;">about_us</a>
+        <a href="#" style="color: bisque;">Contact_us</a>
+        <div>
+            <label for="Bikes">Choose a Bike:</label>
+            <select name="Bikes" id="Bikes">
+                <option value="honda">honda</option>
+                <option value="pulser">pulser</option>
+                <option value="duke">duke</option>
+                <option value="bullet">bullet</option>
+            </select>
+        </div>
+        <div class="child">
+            <p>Welcome to My Showroom=descen com<p>
+                    <span>hurry up limited offers</span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
