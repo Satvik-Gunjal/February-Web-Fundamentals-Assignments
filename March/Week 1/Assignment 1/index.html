@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Replica of wiki</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+
+            height: 100vh;
+        }
+
+        .navbar {
+            height: 6vh;
+            background-color: mediumslateblue;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+
+        }
+
+        .main {
+            width: 100%;
+            height: 94vh;
+        }
+
+        .left {
+            width: 20%;
+            float: left;
+            height: 94vh;
+            background-color: beige;
+            position: fixed
+        }
+
+        .right {
+            width: 80%;
+            float: right;
+            min-height: 94vh;
+
+        }
+
+        a {
+            font-size: 20px;
+            padding: 20px;
+            color: bisque;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: rgb(0, 0, 0);
+        }
+
+
+        .ip {
+            float: right;
+            margin: 11px;
+            height: 30px;
+
+        }
+
+        input {
+            height: 30px;
+            width: 30rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: black;
+            font-size: 25px;
+            padding-top: 10px;
+            margin-left: 28px;
+        }
+
+        ol {
+
+            font-size: 33px;
+            margin-left: 35px;
+
+        }
+
+        button {
+            width: 280px;
+            height: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            animation: none;
+            background-color: aqua;
+            padding: 20ox;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            margin: 10px;
+        }
+
+        span {
+            text-align: center;
+        }
+
+        .right1 {
+            font-size: 18px;
+            column-gap: 5px;
+        }
+
+        ul {
+            margin-left: 28px;
+            list-style: none;
+        }
+
+        table,
+        th,
+        td {
+            text-align: center;
+            border-collapse: collapse;
+            border: solid black;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="#" style="color: black;  font-size: 40px;">Announcement</a>
+            <a href="#">Posts</a>
+            <a href="#">Files</a>
+            <a href="#">Wiki</a>
+
+            <select id="Wiki">
+                <option value="Expand">Expand Tab</option>
+                <option value="Reload">Reload Tab</option>
+                <option value="Copy">Copy Link Tab</option>
+
+                <option value="dropodown" selected>MORE</option>
+            </select>
+            <div class="ip">
+                <input placeholder="Seach">
+            </div>
+
+        </nav>
+
+        <div class="main">
+            <div class="left">
+                <p>Announcements</p>
+                <ol>
+                    <button>1.Purpose of channel </button>
+                    <br>
+                    <button>2.Class link</button>
+                    <br>
+                    <button>3.Request forms</button>
+                    <br>
+                    <button>4.Whom to contact</button>
+                    <br>
+                    <button>5.Level-up</button>
+                    <br>
+                    <button>6.Soft skill</button>
+                    <br>
+                    <button>7.New batch</button>
+                    <br>
+                </ol>
+            </div>
+
+            <div class="right">
+                <p class="right1">
+                    Wiki
+                    <br>
+                    Last edit : today
+                    <br>
+                    <br>
+
+                    Class Link
+
+                    <br>
+                    <a href="#" style="color: blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+                    Class Recording
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+                    Class Code Link
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+                    Avenfer sheet
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+
+                    Imprtant links
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+
+                    Mock Interview Request link
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+                    Mentor Request link
+
+                    <br>
+                    <a href="#" style="color:  blue; font-size: 15px;">----------Psuedo
+                        Link----------------------------</a>
+                    <br>
+                    <br>
+
+                    Doubt clearing session
+
+
+                <table style="width:80%">
+                    <tr>
+                        <th>Day</th>
+                        <th>Timing</th>
+                        <th>Java</th>
+                        <th>Web</th>
+                    </tr>
+                    <tr>
+                        <td>Mon-Fri</td>
+                        <td>5-7</td>
+                        <td><a href="#" style="color: blue;">----------Psuedo link-----------------</a></td>
+                        <td><a href="#" style="color:blue;">----------Psuedo link------------------</a></td>
+                    </tr>
+
+                </table>
+                <p class="right1">
+                    Whom to contact
+
+
+                <table style="width:80%">
+                    <tr>
+                        <td>ISA</td>
+                        <td>shravni</td>
+
+                    </tr>
+                    <tr>
+                        <td>Doubt</td>
+                        <td>Akhil sharma</td>
+                    </tr>
+                    <tr>
+                        <td>Share assignment & getting feedback </td>
+                        <td>Batch channel</td>
+                    </tr>
+                    <tr>
+                        <td>Video recordings</td>
+                        <td>Batch channel</td>
+                    </tr>
+                    <tr>
+                        <td>Test / Technical issues</td>
+                        <td>Akhil Sharma, Aryan Gupta</td>
+                    </tr>
+                    <tr>
+                        <td>Queries</td>
+                        <td>Rupali</td>
+                    </tr>
+                </table>
+
+                </p>
+                <p class="right1">
+                <ul>
+                    *Assignment Submission*
+                    <br>
+                    <br>
+                    <li> 1.Create a Github account .</li>
+                    <br>
+                    <br>
+
+                    <li>2. Create a repository ,name should be in this format :- “{​​batch name}​​​​​​​​​ Assignments”.
+                        (example :- “February Web Fundamentals Assignments”).</li>
+                    <br>
+                    <br>
+
+                    <li> 3.In the repository create folders for each month . (suppose duration of your course is 3
+                        months
+                        ,
+                        and course is starting from January , then your repository look like this :-</li>
+                    <br>
+                    <br>
+
+                    February Web Fundamentals Assignments -
+                    <br>
+
+                    <br>
+
+                    --January
+                    <br>
+                    <br>
+                    ---February
+                    <br>
+                    <br>
+                    ----March
+                    <br>
+                    <br>
+
+                    <li>4. Create folders for weeks in each month’s folder .</li>
+                    <br>
+                    <br>
+
+                    <li>5. Create folders for assignments in each week’s folder.</li>
+                    <br>
+                    <br>
+
+                    <li>6. Now Submit your assignments in the respective folder .</li>
+                    <br>
+                    <br>
+
+                    <li>7. your repository folder structure will look something like this .</li>
+                    <br>
+                    <br>
+
+                    February Web Fundamentals Assignments -
+                    <br>
+                    <br>
+
+                    January -
+
+                    <br>
+                    <br>
+
+                    --Week 1 -
+
+                    <br>
+                    <br>
+                    ---Assignment 1
+
+                    <br>
+                    <br>
+                    ---Assignment 2
+                    <br>
+                    <br>
+
+                    ---Assignment 3
+                    <br>
+                    <br>
+
+                    ……….. And so on ……
+
+                    <br>
+                    <br>
+                    On Sunday you will get a form in which you will have to submit all assignments of that week .
+                    <br> submit your assignments according to the form's instructions .
+                    <br>
+
+                    Folder Creation -
+                    <br>
+
+                    Click on New file
+
+                    <br>
+                    On the text field for the file name, first write the folder name you want to create
+                    <br>
+                    Then type /. This creates a folder
+                    You can add more folders similarly
+                    Finally, give the new file a name
+                    Finally, Commit the changes
+                    <br>
+                </ul>
+
+                </p>
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

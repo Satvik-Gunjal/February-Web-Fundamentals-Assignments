@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+
+            width: 100vw;
+            height: 100vh;
+
+        }
+
+        .left {
+            float: left;
+            width: 30vw;
+            height: 100vh;
+            background-color: aquamarine;
+            position: relative;
+        }
+
+        .right {
+            float: right;
+            width: 70vw;
+            height: 100vh;
+            background-color: white;
+            position: relative;
+        }
+
+        .upleft {
+            position: absolute;
+            height: 81vh;
+            background-color: aquamarine;
+            top: 100px;
+            left: 16px;
+            font-size: 18px;
+            width: 26vw;
+            margin-left: 57px;
+            top: 100px;
+            left: 20px;
+            font-size: 18px;
+            box-shadow: 0 6px 50px 0 rgb(0 0 0 / 30%), 0 6px 37px 0 rgb(0 0 0 / 30%)
+        }
+
+        .upright {
+            position: absolute;
+            height: 81vh;
+            background-color: white;
+            top: 100px;
+            right: 16px;
+            font-size: 18px;
+            width: 66vw;
+            margin-right: 57px;
+            top: 100px;
+            right: 20px;
+            font-size: 18px;
+            box-shadow: 0 6px 50px 0 rgb(0 0 0 / 30%), 0 6px 37px 0 rgb(0 0 0 / 30%)
+        }
+
+        .text {
+            display: flex;
+            position: relative;
+        }
+
+        p {
+            display: flex;
+            position: absolute;
+            top: 50%;
+            font-family: cursive;
+            font-size: 15px;
+            text-align: center;
+            font-size: 18px;
+            margin-left: 75px;
+
+        }
+
+        .text1 {
+            display: flex;
+            position: relative;
+
+        }
+
+        h4 {
+            display: flex;
+            position: absolute;
+            top: 10%;
+            font-family: cursive;
+            font-size: 15px;
+
+            font-size: 18px;
+            margin-left: 75px;
+
+        }
+        .form{
+            display: flex;
+            position: absolute;
+            top: 20%;
+            font-family: cursive;
+            font-size: 15px;
+            margin-left: 75px;
+
+        }
+        .form1{
+            display: flex;
+            position: absolute;
+            top: 35%;
+            font-family: cursive;
+            font-size: 15px;
+            margin-left: 75px;
+
+        }
+        .btn{
+            display: flex;
+            position: absolute;
+            top: 52%;
+            margin-left: 75px;
+            height: 30px; 
+        }
+        .fp{
+            display: flex;
+            position: absolute;
+            top: 65%;
+            margin-left: 75px;
+            height: 30px; 
+            
+        }
+  
+      button{
+          font-family: cursive;
+          border-radius: 5px;
+          width: 100px;
+      }
+        button:hover{
+           background-color: aquamarine;
+           
+        }
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        input {
+            border-radius: 6px;
+            width: 300px;
+            height: 30px;
+            display: flex;
+            position: absolute;
+            top: 150%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="back">
+            <div class="left"></div>
+            <div class="upleft">
+                <div class="text"></div>
+                <p>
+                    -: Clean my car :-
+                    <br>
+                    Indias first waterless car cleaning company
+                </p>
+
+            </div>
+            <div class="right"></div>
+            <div class="upright">
+                <div class="text1"></div>
+                <h4>LOGIN</h4>
+                <br>
+                <div class="form">
+                    <a href="#">Email</a>
+                    <input value="Email" placeholder="Email">
+                  
+                </div>
+                <div class="form1">
+                    <a href="#">Password</a>
+                    <input value="Password" placeholder="password">
+                </div>
+
+                <div class="btn">
+                    <button value="submit">Log In</button>
+                </div>
+
+                <div class="fp">
+                    <a href="#">Fogot Password ?</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
